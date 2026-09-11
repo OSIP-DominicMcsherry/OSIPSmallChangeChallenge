@@ -1,261 +1,1267 @@
-Skip to the workbook
-OSIP · Free 7 day challenge · Workbook
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One Small Change · A free 7 day OSIP challenge</title>
+<meta name="description" content="A free 7 day OSIP challenge. Choose one area of your life, commit to one small action, and show up for it. Interactive workbook, daily practice, and reflection built in.">
+<meta name="theme-color" content="#0B0B0B">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230B0B0B'/%3E%3Ccircle cx='50' cy='50' r='28' fill='none' stroke='%23F5C518' stroke-width='8'/%3E%3C/svg%3E">
 
-One Small Change
-Stop trying to fix your whole life. Start with one thing.
+<meta property="og:type" content="website">
+<meta property="og:title" content="One Small Change · A free 7 day OSIP challenge">
+<meta property="og:description" content="Stop trying to fix your whole life. Start with one thing. A free 7 day OSIP challenge.">
+<meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630'%3E%3Crect width='1200' height='630' fill='%230B0B0B'/%3E%3Ctext x='80' y='320' font-family='Georgia,serif' font-size='84' fill='%23F2EFE8'%3EOne Small Change%3C/text%3E%3Ctext x='80' y='390' font-family='Georgia,serif' font-style='italic' font-size='34' fill='%23F5C518'%3EA free 7 day OSIP challenge%3C/text%3E%3C/svg%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="One Small Change · A free 7 day OSIP challenge">
+<meta name="twitter:description" content="Stop trying to fix your whole life. Start with one thing.">
 
-You do not need to fix everything. You need to start paying attention to what actually needs you. For seven days you are going to choose one area of your life, commit to one small action, and show up for it. This page saves everything you write in your own browser, so you can come back to it all week. And if you have joined a few days late, you are not behind. Start at Day 0 today and run your own seven.
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<style>
+:root{
+  color-scheme: dark;
+  --ink:#F2EFE8; --ink-soft:#C6C1B5; --muted:#9B968A;
+  --paper:#0B0B0B; --surface:#131312; --surface-2:#1C1B18;
+  --line:#33322D; --line-soft:#26251F;
+  --moss:#F5C518; --moss-soft:#2A2410;
+  --brass:#F5C518; --brass-soft:#2A2410;
+  --chip-on-ink:#0B0B0B;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  --r:3px;
+  --measure:34rem;
+}
 
-Seven days
-·
-One action
-·
-Nothing collected
-A punishment
-A detox
-A transformation
-Becoming your best self
-Just one thing you are willing to show up for.
+*{box-sizing:border-box}
+img,svg{max-width:100%}
+button,input,textarea{font:inherit;color:inherit}
 
-Start here
-01
-Join the group
-That is where the daily messages come from, and where everyone checks in. One tap, and you can leave whenever you want.
-02
-Sunday, choose your area
-Just the area. Not the action yet, and not a plan. One of the eleven below.
-03
-Monday, we begin
-You choose your one small action and we go. Seven days.
-Join the WhatsApp group
-Or message Dom first
-Free · Nothing collected · Leave any time
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:Archivo,"Helvetica Neue",Arial,sans-serif;
+  font-size:17px; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:74rem;margin:0 auto;padding:0 1.5rem 4rem}
+.col{max-width:var(--measure);margin-inline:auto}
+p{margin:0 0 1.05em}
+strong{font-weight:700}
+a{color:var(--moss)}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:2px}
+@media (max-width:560px){ .wrap{padding:0 1.1rem 3rem} body{font-size:16.5px} }
 
-Where you are
-0
-1
-2
-3
-4
-5
-6
-7
-Starts soon
-On this page
-Choose your area
-Your action
-Track the week
-The eight days
-The menu
-What next
-Part one
-Choose your area
-Before changing anything, look honestly at where you actually are. You cannot meaningfully respond to what you have not first been willing to see clearly.
+.skip{
+  position:absolute;left:-9999px;top:0;background:var(--moss);color:var(--chip-on-ink);
+  padding:.6rem 1rem;z-index:10;border-radius:0 0 var(--r) 0;
+}
+.skip:focus{left:0}
 
-OSIP says
-Seeing where you are is not the same as accepting it. You can look straight at something and still resist it, grieve it, or work to change it. Seeing does not tell you what to do. It makes it possible to respond to the actual thing rather than the version you edited for comfort.
+h1,h2,h3,h4,h5{font-family:Newsreader,Georgia,serif;font-weight:500;text-wrap:balance;margin:0}
+.eyebrow{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 .5rem;
+}
 
-Try this
-Read all eleven areas below. Notice which one you keep returning to, and be honest rather than picking the one you think you should pick. One area is the whole point. Two is allowed if you genuinely cannot separate them, but one will always work better.
+/* ---------- masthead ---------- */
+.mast{border-bottom:1px solid var(--line);padding:clamp(2.5rem,7vw,4.5rem) 0 2.25rem;margin-bottom:2rem}
+.mast h1{font-size:clamp(2.6rem,8vw,4.4rem);line-height:1.02;letter-spacing:-.02em}
+.mast .sub{
+  font-family:Newsreader,Georgia,serif;font-style:italic;
+  font-size:clamp(1.15rem,3vw,1.55rem);color:var(--moss);margin:.4rem 0 1.1rem;
+}
+.mast .lede{font-size:1.04rem;color:var(--ink-soft);max-width:32rem}
+.mast .meta{
+  font-family:"IBM Plex Mono",monospace;font-size:.64rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);margin-top:1.4rem;
+  display:flex;gap:1rem;flex-wrap:wrap;align-items:center;
+}
+.sep{color:var(--line)}
 
-What area needs the most attention
-Tap to choose
-Chosen
-One area. That is exactly right.
+.nots{display:grid;grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr));gap:.45rem;margin:1.5rem 0 1.1rem}
+.nots div{
+  font-size:.92rem;color:var(--muted);padding:.6rem .8rem;
+  background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--r);
+  text-decoration:line-through;text-decoration-color:var(--brass);text-decoration-thickness:2px;
+}
+.isline{font-family:Newsreader,Georgia,serif;font-size:clamp(1.3rem,3.2vw,1.75rem);line-height:1.32;max-width:20em;margin:0}
 
-Fitness and Activity
-✓
-Build strength, improve health and increase daily movement.
-“I will walk for 20 minutes every day.” · “I will do two strength sessions this week.”
+/* ---------- start here ---------- */
+.start{
+  border:1px solid var(--brass);border-radius:var(--r);background:var(--surface);
+  padding:1.4rem 1.5rem;margin-bottom:1.25rem;max-width:58rem;
+}
+.start .t{font-family:"IBM Plex Mono",monospace;font-size:.63rem;letter-spacing:.15em;text-transform:uppercase;color:var(--brass);display:block;margin-bottom:.9rem}
+.steps3{list-style:none;padding:0;margin:0 0 1.1rem}
+.steps3 li{display:grid;grid-template-columns:1.7rem 1fr;gap:.7rem;padding:.55rem 0;border-bottom:1px solid var(--line-soft);align-items:baseline}
+.steps3 li:last-child{border-bottom:0}
+.steps3 .n{font-family:"IBM Plex Mono",monospace;font-size:.66rem;color:var(--brass);letter-spacing:.1em}
+.steps3 .w{font-size:.97rem;color:var(--ink-soft)}
+.steps3 .w b{font-family:Newsreader,Georgia,serif;font-weight:500;color:var(--ink);display:block;font-size:1.06rem}
+@media (max-width:560px){ .start{padding:1.1rem 1rem} }
 
-Nutrition and Energy
-Support energy, recovery and long term health through simple habits.
-“I will have a source of protein with every meal.” · “I will drink a glass of water before every coffee.”
+/* ---------- progress ---------- */
+.progress{
+  display:flex;align-items:center;gap:.6rem;margin:0 0 1.5rem;flex-wrap:wrap;
+}
+.progress .plabel{
+  font-family:"IBM Plex Mono",monospace;font-size:.63rem;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--muted);white-space:nowrap;
+}
+.progress .dots{display:flex;gap:.35rem;flex-wrap:wrap}
+.progress .dot{
+  width:1.65rem;height:1.65rem;border-radius:50%;border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;
+  font-family:"IBM Plex Mono",monospace;font-size:.62rem;color:var(--muted);
+  background:var(--surface);flex-shrink:0;
+}
+.progress .dot.is-past{border-color:var(--brass);color:var(--brass);background:var(--brass-soft)}
+.progress .dot.is-today{
+  border-color:var(--brass);background:var(--brass);color:var(--chip-on-ink);font-weight:700;
+  box-shadow:0 0 0 3px var(--brass-soft);
+}
+.progress .here{font-family:"IBM Plex Mono",monospace;font-size:.63rem;letter-spacing:.05em;color:var(--brass)}
+@media (max-width:560px){ .progress .plabel{width:100%} }
 
-Recovery, Sleep and Downtime
-Give your body and mind time to recover and recharge.
-“I will go to bed and get up at the same time every day.” · “I will leave my phone in another room 30 minutes before bed.”
+/* ---------- contents ---------- */
+.contents{
+  border:1px solid var(--line-soft);border-radius:var(--r);background:var(--surface);
+  padding:.85rem 1rem;margin-bottom:2.5rem;display:flex;flex-wrap:wrap;gap:.35rem .9rem;align-items:center;
+}
+.contents .clabel{font-family:"IBM Plex Mono",monospace;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-right:.3rem}
+.contents a{font-size:.88rem;text-decoration:none;color:var(--ink-soft);border-bottom:1px solid transparent}
+.contents a:hover{color:var(--brass);border-bottom-color:var(--brass)}
 
-Grounding Practices
-Create space to slow down, reflect and regulate stress.
-“I will sit quietly for 5 minutes each morning.” · “I will write down one thing I am grateful for before bed.”
+/* ---------- part headers ---------- */
+.part{margin:3.25rem 0 1.5rem;padding-top:2rem;border-top:1px solid var(--line);scroll-margin-top:1rem}
+.part .num{
+  font-family:"IBM Plex Mono",monospace;font-size:.64rem;letter-spacing:.18em;
+  color:var(--brass);text-transform:uppercase;display:block;margin-bottom:.5rem;
+}
+.part h2{font-size:clamp(1.7rem,4.5vw,2.3rem);line-height:1.12;letter-spacing:-.015em}
+.part .part-lede{margin-top:.8rem;color:var(--ink-soft)}
 
-Social and Relationships
-Strengthen connection and reduce isolation.
-“I will message one person I have been meaning to catch up with.” · “I will have one real conversation this week: phone away, more than logistics, where I say something honest about how I am actually doing.”
+/* ---------- the marks ---------- */
+.mark{margin:1rem 0;padding-left:1rem;border-left:2px solid var(--line)}
+.mark--says{border-left-color:var(--moss)}
+.mark--try{border-left-color:var(--ink-soft)}
+.mark .tag{
+  font-family:"IBM Plex Mono",monospace;font-size:.63rem;letter-spacing:.15em;
+  text-transform:uppercase;display:block;margin-bottom:.35rem;font-weight:500;
+}
+.mark--says .tag{color:var(--moss)}
+.mark--try .tag{color:var(--ink-soft)}
+.mark p{color:var(--ink-soft)}
+.mark p:last-child{margin-bottom:0}
 
-Mindset and Self-Talk
-Develop self awareness, resilience and self compassion.
-“When I catch myself being harsh, I will say it again the way I would say it to a friend.” · “I will write down one thing that went well each day.”
+/* ---------- panels ---------- */
+.panel{
+  margin:1.75rem auto 0;max-width:58rem;background:var(--surface);
+  border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);
+  padding:1.35rem 1.25rem 1.25rem;
+}
+.panel > .phead{
+  display:flex;justify-content:space-between;align-items:baseline;gap:1rem;
+  flex-wrap:wrap;margin-bottom:.9rem;
+  border-bottom:1px solid var(--line-soft);padding-bottom:.6rem;
+}
+.panel .ptitle{font-family:Newsreader,Georgia,serif;font-size:1.25rem}
+.panel .pnote{
+  font-family:"IBM Plex Mono",monospace;font-size:.6rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);
+}
+.panel .pintro{font-size:.92rem;color:var(--muted);max-width:44rem}
+@media (max-width:560px){ .panel{padding:1.1rem 1rem} }
 
-Lifestyle and Habits
-Build routines that support the life you want to live.
-“I will spend 10 minutes each evening getting tomorrow ready.” · “I will put my trainers by the door so the easy choice is the good one.”
+/* ---------- pads ---------- */
+.pad{display:grid;gap:.75rem}
+.padrow label{display:block;font-size:.88rem;margin-bottom:.3rem;color:var(--ink-soft)}
+textarea,input[type=text],input[type=time]{
+  width:100%;font-family:Archivo,sans-serif;font-size:.95rem;color:var(--ink);
+  background:var(--paper);border:1px solid var(--line);border-radius:var(--r);
+  padding:.55rem .65rem;line-height:1.5;resize:vertical;
+}
+textarea::placeholder,input::placeholder{color:var(--muted);opacity:.75}
+textarea:focus,input:focus{border-color:var(--moss);outline:none;box-shadow:0 0 0 3px var(--moss-soft)}
+textarea{min-height:4.75rem}
+.twocol{display:grid;grid-template-columns:1fr;gap:.9rem}
+@media(min-width:640px){.twocol{grid-template-columns:1fr 1fr}}
+.twocol .hd{
+  font-family:"IBM Plex Mono",monospace;font-size:.63rem;letter-spacing:.15em;
+  text-transform:uppercase;margin-bottom:.35rem;
+}
+.twocol .mine .hd{color:var(--moss)}
+.twocol .notmine .hd{color:var(--brass)}
 
-Challenges and Stress
-Respond to difficulties with awareness rather than avoidance.
-“When something winds me up, I will write down what is actually in my control.” · “I will get 10 minutes outside before I react to anything difficult.”
+/* ---------- choose your area ---------- */
+.counter{
+  display:flex;align-items:center;gap:.7rem;flex-wrap:wrap;margin-bottom:.9rem;
+  font-family:"IBM Plex Mono",monospace;font-size:.64rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--muted);
+}
+.pips{display:flex;gap:.3rem}
+.pips i{width:14px;height:5px;background:var(--line);border-radius:1px;display:block}
+.pips i.on{background:var(--brass)}
+.warnmsg{color:var(--brass);text-transform:none;letter-spacing:.02em;font-family:Archivo,sans-serif;font-size:.85rem}
 
-Goals, Purpose and Direction
-Create clarity and move towards what matters most.
-“I will write down one goal that matters to me and read it every morning.” · “I will give 15 minutes a day to the thing I keep putting off.”
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.5rem}
+.card{
+  text-align:left;background:var(--surface-2);border:1px solid var(--line-soft);
+  border-radius:var(--r);padding:.8rem .9rem;cursor:pointer;color:var(--ink);
+  display:flex;flex-direction:column;gap:.35rem;transition:border-color .12s,background .12s;
+}
+.card:hover{border-color:var(--moss)}
+.card[aria-pressed="true"]{background:var(--moss);border-color:var(--moss);color:var(--chip-on-ink)}
+.card .ctop{display:flex;justify-content:space-between;gap:.5rem;align-items:flex-start}
+.card .cname{font-family:Newsreader,Georgia,serif;font-size:1.05rem;line-height:1.24}
+.card .cmark{
+  flex:0 0 auto;width:1rem;height:1rem;border:1px solid currentColor;border-radius:1px;
+  display:grid;place-items:center;font-size:.66rem;font-weight:700;
+}
+.card .cpurp{font-size:.82rem;line-height:1.42;color:var(--muted)}
+.card .cex{font-family:Newsreader,Georgia,serif;font-style:italic;font-size:.85rem;line-height:1.42;color:var(--muted)}
+.card[aria-pressed="true"] .cpurp,.card[aria-pressed="true"] .cex{color:rgba(11,11,11,.72)}
+.empty{border:1px dashed var(--line);border-radius:var(--r);padding:1.1rem;color:var(--muted);text-align:center;font-size:.9rem}
 
-Routine, Accountability and Consistency
-Turn good intentions into sustainable action.
-“I will plan the next day the night before.” · “I will tell one person what I am doing and check in with them on Sunday.”
+.actionrow{border:1px solid var(--line-soft);border-radius:var(--r);background:var(--surface-2);padding:.95rem;margin-bottom:.7rem}
+.actionrow:last-child{margin-bottom:0}
+.actionrow .tagname{
+  font-family:"IBM Plex Mono",monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--brass);display:block;margin-bottom:.7rem;
+}
+.inline2{display:grid;grid-template-columns:1fr;gap:.75rem}
+@media(min-width:560px){.inline2{grid-template-columns:1fr 9rem}}
 
-Support and Compassion
-Recognise that lasting change does not happen alone.
-“I will ask for help with one thing instead of carrying it alone.” · “I will check in on someone who might need it.”
-Part two
-Write your action
-Something you could do today, tomorrow, and on the worst day of your week.
+/* ---------- tracker ---------- */
+.trow{margin-bottom:1.2rem}
+.tlabel{font-family:Newsreader,Georgia,serif;font-size:1.1rem;line-height:1.3;margin-bottom:.15rem}
+.tcount{font-family:"IBM Plex Mono",monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:.6rem;font-variant-numeric:tabular-nums}
+.tgrid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:.3rem}
+.tick{
+  min-width:0;overflow:hidden;
+  aspect-ratio:1/1;border:1px solid var(--line);border-radius:var(--r);
+  background:var(--paper);cursor:pointer;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:.1rem;position:relative;
+  font-family:"IBM Plex Mono",monospace;font-size:.56rem;letter-spacing:.08em;
+  color:var(--muted);padding:.2rem;transition:background .12s,transform .1s,border-color .12s;
+}
+.tick:hover{border-color:var(--moss)}
+.tick .glyph{font-family:Archivo,sans-serif;font-size:1.1rem;line-height:1;font-weight:700;color:transparent}
+.tick[data-state="yes"]{background:var(--moss);border-color:var(--moss);color:var(--chip-on-ink)}
+.tick[data-state="yes"] .glyph{color:var(--chip-on-ink)}
+.tick[data-state="partly"]{border-color:var(--moss);color:var(--moss);background:linear-gradient(135deg,var(--moss) 0 50%,var(--paper) 50% 100%)}
+.tick[data-state="partly"] .glyph{color:var(--moss)}
+.tick[data-state="no"]{background:var(--surface-2);border-color:var(--line);color:var(--muted)}
+.tick[data-state="no"] .glyph{color:var(--muted)}
+.tick[data-today="1"]::after{
+  content:"";position:absolute;inset:-4px;border:1px solid var(--brass);border-radius:5px;pointer-events:none;
+}
+.tick.pop{transform:scale(.9)}
+.tkey{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:.9rem;font-family:"IBM Plex Mono",monospace;font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tkey span{display:flex;align-items:center;gap:.35rem}
+.tkey i{width:.8rem;height:.8rem;border:1px solid var(--line);border-radius:1px;display:inline-block}
+.tkey i.y{background:var(--moss);border-color:var(--moss)}
+.tkey i.p{border-color:var(--moss);background:linear-gradient(135deg,var(--moss) 0 50%,var(--paper) 50% 100%)}
+.tkey i.n{background:var(--surface-2)}
+.tkey i.t{border-color:var(--brass);background:transparent}
 
-OSIP says
-Make it almost too easy. This is not testing how much you can endure, it is testing whether you can keep a promise to yourself. If the action feels impressive, it is probably too big.
+/* ---------- format block ---------- */
+.fmt{border:1px solid var(--line);border-radius:var(--r);background:var(--paper);padding:.95rem 1.1rem;margin-top:1rem}
+.fmt .t{font-family:"IBM Plex Mono",monospace;font-size:.63rem;letter-spacing:.15em;text-transform:uppercase;color:var(--brass);display:block;margin-bottom:.6rem}
+.fmt pre{font-family:"IBM Plex Mono",monospace;font-size:.76rem;line-height:1.85;color:var(--ink-soft);margin:0;white-space:pre-wrap}
+.fmt .picker{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.75rem}
+.fmt .picker label{font-family:"IBM Plex Mono",monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+select{
+  font-family:Archivo,sans-serif;font-size:.88rem;color:var(--ink);background:var(--surface-2);
+  border:1px solid var(--line);border-radius:var(--r);padding:.35rem .5rem;
+}
+select:focus{border-color:var(--moss);outline:none;box-shadow:0 0 0 3px var(--moss-soft)}
 
-Try this
-Write it as a specific sentence with a time attached. Not I need to exercise more, but I will walk for twenty minutes after work. Then shrink it until it is boring.
+/* ---------- buttons ---------- */
+.btnrow{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-top:1rem}
+.btn{
+  border:1px solid var(--line);border-radius:var(--r);background:var(--surface-2);
+  color:var(--ink);padding:.55rem .9rem;font-size:.88rem;cursor:pointer;
+  display:inline-flex;align-items:center;gap:.4rem;text-decoration:none;
+}
+.btn:hover{border-color:var(--brass);color:var(--brass)}
+.btn--go{background:var(--moss);border-color:var(--moss);color:var(--chip-on-ink);font-weight:600}
+.btn--go:hover{background:var(--brass);border-color:var(--brass);color:var(--chip-on-ink);filter:brightness(1.08)}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.btnnote{font-family:"IBM Plex Mono",monospace;font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 
-My one small change
-Saves as you type
-Fitness and Activity
-This week, I will…
-Meditate and cold shower first thing every morning.
-When
+/* ---------- days ---------- */
+.days{display:flex;flex-direction:column;gap:.4rem;max-width:58rem;margin-inline:auto}
+details.day{background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--r)}
+details.day[open]{border-color:var(--line);box-shadow:var(--shadow)}
+details.day.is-today{border-color:var(--brass)}
+summary{list-style:none;cursor:pointer;padding:.8rem 1rem;display:flex;align-items:baseline;gap:.8rem}
+summary::-webkit-details-marker{display:none}
+.dnum{font-family:"IBM Plex Mono",monospace;font-size:.62rem;letter-spacing:.15em;color:var(--brass);flex:0 0 auto}
+.dtitle{font-family:Newsreader,Georgia,serif;font-size:1.18rem;flex:1 1 auto;line-height:1.25}
+.dwhen{font-family:"IBM Plex Mono",monospace;font-size:.58rem;letter-spacing:.12em;color:var(--muted);flex:0 0 auto}
+details.day.is-today .dwhen{color:var(--brass)}
+.dbody{padding:0 1rem 1.15rem}
+.dq{
+  font-family:Newsreader,Georgia,serif;font-style:italic;font-size:1.18rem;line-height:1.42;
+  color:var(--ink);margin:0 0 .8rem;padding-left:1rem;border-left:3px solid var(--brass);
+  max-width:32rem;text-wrap:balance;
+}
+.dbody p{font-size:.95rem;color:var(--ink-soft);max-width:44rem}
+.dbody .pad{margin-top:.9rem}
 
-08:30
-If today is Day 0, this part is tomorrow's job. It is fine to stop after choosing your area above and come back here on Day 1. Nothing here needs deciding tonight.
+/* ---------- the loop ---------- */
+.loop{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;margin-top:.4rem}
+.loop b{font-weight:400;font-size:.87rem;border:1px solid var(--line);border-radius:var(--r);padding:.35rem .6rem;background:var(--surface-2)}
+.loop b.here{border-color:var(--brass);color:var(--brass)}
+.loop i{color:var(--muted);font-style:normal;font-family:"IBM Plex Mono",monospace;font-size:.72rem}
 
-Part three
-Track the week
-Three answers rather than two, because life is not binary. Partly is a real answer and not a failed yes.
+/* ---------- menu ---------- */
+details.menu{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);max-width:58rem;margin:1.5rem auto 0}
+details.menu > summary{padding:1rem 1.15rem}
+details.menu > summary .dtitle{font-size:1.22rem}
+.menugrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:0 1.4rem;padding:0 1.15rem 1.15rem}
+.menuitem{padding:.6rem 0;border-bottom:1px solid var(--line-soft)}
+.menuitem .m{font-family:Newsreader,Georgia,serif;font-size:1.02rem}
+.menuitem .s{font-size:.83rem;color:var(--muted);line-height:1.48;margin-top:.1rem}
 
-OSIP says
-A missed day is data, not failure. If you miss a day you are continuing, not starting again. There is no streak here to break, and an empty box is information about your week rather than a verdict on you.
+/* ---------- contact ---------- */
+.contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:.5rem;margin-top:.5rem}
+.clink{
+  display:flex;flex-direction:column;gap:.2rem;border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface);padding:.9rem 1rem;text-decoration:none;color:var(--ink);
+  transition:border-color .12s,color .12s;
+}
+.clink:hover{border-color:var(--brass);color:var(--brass)}
+.clink .k{font-family:"IBM Plex Mono",monospace;font-size:.6rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+.clink .v{font-family:Newsreader,Georgia,serif;font-size:1.12rem}
 
-Seven days
-Tap a day to record it
-Meditate and cold shower first thing every morning.
-0 done 0 partly 7 not today 08:30
+/* ---------- safety ---------- */
+.safety{border:1px solid var(--line);border-radius:var(--r);background:var(--surface);padding:1.1rem 1.2rem;margin-top:1.25rem;max-width:44rem}
+.safety p{font-size:.86rem;color:var(--muted)}
+.safety p:last-child{margin-bottom:0}
+.safety b{color:var(--ink-soft);font-weight:500}
+.safety a{color:var(--brass)}
 
-·
-MON
+footer{
+  margin-top:3.5rem;padding-top:1.25rem;border-top:1px solid var(--line);
+  font-family:"IBM Plex Mono",monospace;font-size:.62rem;letter-spacing:.1em;
+  color:var(--muted);line-height:2;text-transform:uppercase;
+}
 
-·
-TUE
+/* ---------- copy fallback ---------- */
+#copyout{display:none;margin-top:.75rem}
+#copyout textarea{min-height:9rem;font-family:"IBM Plex Mono",monospace;font-size:.78rem}
 
-·
-WED
+@media (prefers-reduced-motion: reduce){*{transition:none !important}}
+@media print{
+  .btnrow,.dwhen,.contents,.skip,#copyout{display:none}
+  details.day>.dbody,details.menu>.menugrid{display:block !important}
+  .panel{break-inside:avoid;box-shadow:none}
+  .part{break-after:avoid}
+}
+</style>
 
-·
-THU
+<a class="skip" href="#start">Skip to the workbook</a>
 
-·
-FRI
+<div class="wrap">
 
-·
-SAT
+  <header class="mast">
+    <p class="eyebrow">OSIP · Free 7 day challenge · Workbook</p>
+    <h1>One Small Change</h1>
+    <p class="sub">Stop trying to fix your whole life. Start with one thing.</p>
+    <p class="lede">You do not need to fix everything. You need to start paying attention to what actually needs you. For seven days you are going to choose one area of your life, commit to one small action, and show up for it. This page saves everything you write in your own browser, so you can come back to it all week. And if you have joined a few days late, you are not behind. Start at Day 0 today and run your own seven.</p>
+    <div class="meta"><span id="daynow">Seven days</span><span class="sep">·</span><span>One action</span><span class="sep">·</span><span>Nothing collected</span></div>
 
-·
-SUN
-Done
-Partly
-Not today
-Your check in, ready to send
-Checking in for
+    <div class="nots">
+      <div>A punishment</div>
+      <div>A detox</div>
+      <div>A transformation</div>
+      <div>Becoming your best self</div>
+    </div>
+    <p class="isline">Just one thing you are willing to show up for.</p>
+  </header>
 
-Day 1 · Choose your action
-One Small Change · Day 1
+  <div class="start">
+    <span class="t">Start here</span>
+    <ul class="steps3">
+      <li><span class="n">01</span><span class="w"><b>Join the group</b>That is where the daily messages come from, and where everyone checks in. One tap, and you can leave whenever you want.</span></li>
+      <li><span class="n">02</span><span class="w"><b>Sunday, choose your area</b>Just the area. Not the action yet, and not a plan. One of the eleven below.</span></li>
+      <li><span class="n">03</span><span class="w"><b>Monday, we begin</b>You choose your one small action and we go. Seven days.</span></li>
+    </ul>
+    <div class="btnrow" style="margin-top:0">
+      <a class="btn btn--go" id="joinbtn" href="https://chat.whatsapp.com/L8VafADVLPb1HsxDxh3uqn" target="_blank" rel="noopener">Join the WhatsApp group</a>
+      <a class="btn" href="https://wa.me/447963322286?text=Hi%20Dom%2C%20I%27d%20like%20to%20join%20the%20One%20Small%20Change%20Challenge." target="_blank" rel="noopener">Or message Dom first</a>
+    </div>
+    <p class="btnnote" style="margin:.85rem 0 0">Free · Nothing collected · Leave any time</p>
+  </div>
 
-Practice: Meditate and cold shower first thing every morning.
-Today: not today
-Send this to Dom on WhatsApp
-Copy it instead
-A single sentence is a complete check in. Nobody is marking these, and there is no version of this week where posting more makes you a better participant.
+  <div class="progress" id="progress">
+    <span class="plabel">Where you are</span>
+    <span class="dots" id="progressDots"></span>
+    <span class="here" id="progressHere"></span>
+  </div>
 
-Part four
-Eight days, one action
-Day 0 lands the day before we start. Days 1 to 7 run Monday to Sunday. Each day adds a layer to the same single action and never asks you to add a second one. Everything you write saves as you type.
+  <nav class="contents" aria-label="Contents">
+    <span class="clabel">On this page</span>
+    <a href="#area">Choose your area</a>
+    <a href="#action">Your action</a>
+    <a href="#track">Track the week</a>
+    <a href="#week">The eight days</a>
+    <a href="#menu">The menu</a>
+    <a href="#next">What next</a>
+  </nav>
 
-DAY 0
-Begin with reality
-SUN
-What area of my life currently needs the most attention?
+  <!-- ===== PART ONE ===== -->
+  <div class="col" id="start">
+    <div class="part" id="area">
+      <span class="num">Part one</span>
+      <h2>Choose your area</h2>
+      <p class="part-lede">Before changing anything, look honestly at where you actually are. You cannot meaningfully respond to what you have not first been willing to see clearly.</p>
+    </div>
 
-This is Part one above. Give it longer than feels necessary. Not the area that would look good, and not the one you think you should pick. The one that is actually asking for something.
+    <div class="mark mark--says">
+      <span class="tag">OSIP says</span>
+      <p>Seeing where you are is not the same as accepting it. You can look straight at something and still resist it, grieve it, or work to change it. Seeing does not tell you what to do. It makes it possible to respond to the actual thing rather than the version you edited for comfort.</p>
+    </div>
 
-Why this area, honestly?
+    <div class="mark mark--try">
+      <span class="tag">Try this</span>
+      <p>Read all eleven areas below. Notice which one you keep returning to, and be honest rather than picking the one you think you should pick. One area is the whole point. Two is allowed if you genuinely cannot separate them, but one will always work better.</p>
+    </div>
+  </div>
 
-DAY 1
-Choose your action
-MON
-DAY 2
-Show up
-TUE
-DAY 3
-Notice
-WED
-DAY 4
-What is yours to carry
-THU
-DAY 5
-Nothing stands alone
-FRI
-DAY 6
-Human before perfect
-SAT
-DAY 7
-What will you carry forward
-SUN
-Copy my whole workbook
-Print or save as PDF
-Clear everything
-Part five
-What you are actually running
-This week is one turn of the OSIP loop, shortened to seven days so you can feel the shape of it.
+  <div class="panel">
+    <div class="phead"><span class="ptitle">What area needs the most attention</span><span class="pnote">Tap to choose</span></div>
+    <div class="counter">
+      <span>Chosen</span>
+      <span class="pips"><i id="pip0"></i><i id="pip1"></i></span>
+      <span id="cmsg">Pick one to begin</span>
+    </div>
+    <div class="cards" id="cards"></div>
+  </div>
 
-Reality
-→
-Understanding
-→
-Responsibility
-→
-Action
-→
-Reflection
-→
-Adjustment
-→
-and round again
-OSIP says
-Struggle is not the enemy. Avoidance is. It is a loop rather than a staircase, and there is no final version of it. That is the point. The question underneath all of this is simply whether you are participating in your life.
+  <!-- ===== PART TWO ===== -->
+  <div class="col">
+    <div class="part" id="action">
+      <span class="num">Part two</span>
+      <h2>Write your action</h2>
+      <p class="part-lede">Something you could do today, tomorrow, and on the worst day of your week.</p>
+    </div>
 
-Part six
-The Practical Actions Menu
-Yours free with the challenge. Eleven areas of life and a menu of realistic actions under each one. It is the engine behind this whole week and it stays useful long after the seven days are over. These are not rules and not a prescription, they are ideas worth exploring.
+    <div class="mark mark--says">
+      <span class="tag">OSIP says</span>
+      <p>Make it almost too easy. This is not testing how much you can endure, it is testing whether you can keep a promise to yourself. If the action feels impressive, it is probably too big.</p>
+    </div>
 
-MENU
-Eleven areas, and what you might try
-OPEN
-Part seven
-Keep going
-You do not need another challenge. You need to keep living what you have learned.
+    <div class="mark mark--try">
+      <span class="tag">Try this</span>
+      <p>Write it as a specific sentence with a time attached. Not I need to exercise more, but I will walk for twenty minutes after work. Then shrink it until it is boring.</p>
+    </div>
+  </div>
 
-Seven days does not change a life. It does something more useful than that. It shows you how you actually respond when you make a small promise to yourself and try to keep it, and that is the thing worth building on.
+  <div class="panel">
+    <div class="phead"><span class="ptitle">My one small change</span><span class="pnote">Saves as you type</span></div>
+    <div id="actions">
+      <div class="empty">Choose an area above and your action box appears here.</div>
+    </div>
+    <p class="pintro" style="margin-top:.9rem">If today is Day 0, this part is tomorrow's job. It is fine to stop after choosing your area above and come back here on Day 1. Nothing here needs deciding tonight.</p>
+  </div>
 
-The challenge finishes on Sunday. We will see what we have learned and decide where to go from there.
+  <!-- ===== PART THREE ===== -->
+  <div class="col">
+    <div class="part" id="track">
+      <span class="num">Part three</span>
+      <h2>Track the week</h2>
+      <p class="part-lede">Three answers rather than two, because life is not binary. Partly is a real answer and not a failed yes.</p>
+    </div>
 
-If you want to talk about what comes next, message me. There is no pitch at the end of it, just a conversation about where you are and what might actually help.
+    <div class="mark mark--says">
+      <span class="tag">OSIP says</span>
+      <p>A missed day is data, not failure. If you miss a day you are continuing, not starting again. There is no streak here to break, and an empty box is information about your week rather than a verdict on you.</p>
+    </div>
+  </div>
 
-WhatsApp
-+44 7963 322286
-Instagram
-@osip_dominic_mcsherry
-This is not therapy and it is not medical treatment. OSIP is a set of ideas worth testing, including on itself, and this challenge is a wellbeing exercise rather than clinical support. If something heavier comes up during the week, and sometimes it does, please talk to your GP or a qualified professional.
+  <div class="panel">
+    <div class="phead"><span class="ptitle">Seven days</span><span class="pnote">Tap a day to record it</span></div>
+    <div id="tcard"></div>
 
-If you need to talk to someone now. Samaritans on 116 123, any time. CALM on 0800 58 58 58, 5pm to midnight. Or text SHOUT to 85258.
+    <div class="fmt">
+      <span class="t">Your check in, ready to send</span>
+      <div class="picker">
+        <label for="daysel">Checking in for</label>
+        <select id="daysel">
+          <option value="0">Day 0 · Begin with reality</option>
+          <option value="1">Day 1 · Choose your action</option>
+          <option value="2">Day 2 · Show up</option>
+          <option value="3">Day 3 · Notice</option>
+          <option value="4">Day 4 · What is yours to carry</option>
+          <option value="5">Day 5 · Nothing stands alone</option>
+          <option value="6">Day 6 · Human before perfect</option>
+          <option value="7">Day 7 · What will you carry forward</option>
+        </select>
+      </div>
+      <pre id="checkinpreview">Choose an area and write your action, then today's check in appears here.</pre>
+      <div class="btnrow">
+        <a class="btn btn--go" id="wabtn" href="https://wa.me/447963322286" target="_blank" rel="noopener">Send this to Dom on WhatsApp</a>
+        <button class="btn" id="copybtn" type="button">Copy it instead</button>
+        <span class="btnnote" id="copymsg"></span>
+      </div>
+      <p class="pintro" style="margin:.9rem 0 0">A single sentence is a complete check in. Nobody is marking these, and there is no version of this week where posting more makes you a better participant.</p>
+    </div>
+  </div>
 
-One Small Change · OSIP · Outer struggle, inner peace
-Everything you write here is stored in this browser only. Nothing is sent anywhere and nothing is collected.
-The honest downside: it is lost if you clear site data, and it does not follow you between devices. Copy or print it if it matters.
+  <!-- ===== PART FOUR ===== -->
+  <div class="col">
+    <div class="part" id="week">
+      <span class="num">Part four</span>
+      <h2>Eight days, one action</h2>
+      <p class="part-lede">Day 0 lands the day before we start. Days 1 to 7 run Monday to Sunday. Each day adds a layer to the same single action and never asks you to add a second one. Everything you write saves as you type.</p>
+    </div>
+  </div>
+
+  <div class="days">
+
+    <details class="day" data-day="0">
+      <summary><span class="dnum">DAY 0</span><span class="dtitle">Begin with reality</span><span class="dwhen">SUN</span></summary>
+      <div class="dbody">
+        <p class="dq">What area of my life currently needs the most attention?</p>
+        <p>This is Part one above. Give it longer than feels necessary. Not the area that would look good, and not the one you think you should pick. The one that is actually asking for something.</p>
+        <div class="pad"><div class="padrow">
+          <label for="d0">Why this area, honestly?</label>
+          <textarea id="d0" data-k="d0"></textarea>
+        </div></div>
+      </div>
+    </details>
+
+    <details class="day" data-day="1">
+      <summary><span class="dnum">DAY 1</span><span class="dtitle">Choose your action</span><span class="dwhen">MON</span></summary>
+      <div class="dbody">
+        <p class="dq">What is the one small thing I am willing to do every day this week?</p>
+        <p>Turn the area into something concrete, which is Part two above. Then ask yourself honestly why you want this change, and whether the answer holds up. Changes rooted in something you actually value hold better than changes you are doing because you feel you should.</p>
+        <div class="pad"><div class="padrow">
+          <label for="d1">Why does this matter to me, really?</label>
+          <textarea id="d1" data-k="d1"></textarea>
+        </div></div>
+      </div>
+    </details>
+
+    <details class="day" data-day="2">
+      <summary><span class="dnum">DAY 2</span><span class="dtitle">Show up</span><span class="dwhen">TUE</span></summary>
+      <div class="dbody">
+        <p class="dq">Did I do what I said I would do?</p>
+        <div class="mark mark--says">
+          <span class="tag">OSIP says</span>
+          <p>Motivation is not the goal. Showing up is.</p>
+        </div>
+        <p>You will not feel like it every day this week, and that is not a sign anything is wrong. When the resistance turns up, work out what kind it is. Tired, afraid, bored, genuinely overloaded, or avoiding discomfort. Sometimes the right answer is to rest and sometimes it is to push through, and telling the difference is a skill rather than an instinct.</p>
+        <div class="pad">
+          <div class="padrow"><label for="d2n">What did you notice?</label><textarea id="d2n" data-k="d2n"></textarea></div>
+          <div class="padrow"><label for="d2l">What did you learn?</label><textarea id="d2l" data-k="d2l"></textarea></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="day" data-day="3">
+      <summary><span class="dnum">DAY 3</span><span class="dtitle">Notice</span><span class="dwhen">WED</span></summary>
+      <div class="dbody">
+        <p class="dq">What did I notice when I actually slowed down enough to pay attention?</p>
+        <p>The question is not whether you succeeded, it is what this information is teaching you. What surfaces is rarely about the action itself. It sounds more like realising you are more tired than you thought, or that you are on your phone far more than you knew, or that you never talk to anyone about what is going on, or that you are much harder on yourself than you would be on a friend.</p>
+        <div class="pad">
+          <div class="padrow"><label for="d3n">What did you notice?</label><textarea id="d3n" data-k="d3n"></textarea></div>
+          <div class="padrow"><label for="d3l">What did you learn?</label><textarea id="d3l" data-k="d3l"></textarea></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="day" data-day="4">
+      <summary><span class="dnum">DAY 4</span><span class="dtitle">What is yours to carry</span><span class="dwhen">THU</span></summary>
+      <div class="dbody">
+        <p class="dq">What is actually within my control here?</p>
+        <p>Life gets lighter when you stop carrying what was never yours, and stronger when you willingly carry what is. Not everything that happens is your responsibility, but something almost always is. Your actions, your choices, how you communicate, your boundaries, your willingness to try again or to ask for help.</p>
+        <div class="mark mark--try">
+          <span class="tag">Try this</span>
+          <p>Put your effort into the first column deliberately, then notice what happens to the second one when you stop feeding it.</p>
+        </div>
+        <div class="twocol" style="margin-top:.9rem">
+          <div class="mine"><div class="hd">Mine to carry</div><textarea data-k="d4a"></textarea></div>
+          <div class="notmine"><div class="hd">Not mine to carry</div><textarea data-k="d4b"></textarea></div>
+        </div>
+        <div class="pad" style="margin-top:.8rem"><div class="padrow">
+          <label for="d4l">What did you learn?</label><textarea id="d4l" data-k="d4l"></textarea>
+        </div></div>
+      </div>
+    </details>
+
+    <details class="day" data-day="5">
+      <summary><span class="dnum">DAY 5</span><span class="dtitle">Nothing stands alone</span><span class="dwhen">FRI</span></summary>
+      <div class="dbody">
+        <p class="dq">What else might be connected to the thing I am trying to change?</p>
+        <p>You are a system, not a set of separate categories. Sleep affects mood, mood affects relationships, relationships affect belonging, belonging affects motivation. Someone chooses exercise and finds they are exhausted because they are sleeping badly. Someone chooses nutrition and finds the eating follows the stress. Someone chooses discipline and finds they are lonely.</p>
+        <div class="mark mark--try">
+          <span class="tag">Try this</span>
+          <p>Ask the second question as well, which is usually the more useful one. Which area, if it improved, would probably lift several others with it?</p>
+        </div>
+        <div class="pad" style="margin-top:.9rem">
+          <div class="padrow"><label for="d5n">What did you notice?</label><textarea id="d5n" data-k="d5n"></textarea></div>
+          <div class="padrow"><label for="d5l">What did you learn?</label><textarea id="d5l" data-k="d5l"></textarea></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="day" data-day="6">
+      <summary><span class="dnum">DAY 6</span><span class="dtitle">Human before perfect</span><span class="dwhen">SAT</span></summary>
+      <div class="dbody">
+        <div class="mark mark--says">
+          <span class="tag">OSIP says</span>
+          <p>A missed day is data, not failure. You are not starting again, you are continuing. No restarting, no guilt, no going back to day one.</p>
+        </div>
+        <p>By now some of you will have missed a day, and that is part of the week rather than a break in it. That cycle of going hard, slipping, feeling terrible and starting over on Monday is the thing that has been keeping you stuck. It was never your discipline.</p>
+        <p>The position here is not be kind to yourself so you never have to change. It is treat yourself like a human being while you change. Responsibility does not require cruelty, and compassion does not require abandoning responsibility.</p>
+        <div class="pad">
+          <div class="padrow"><label for="d6n">What happened, and what did you notice?</label><textarea id="d6n" data-k="d6n"></textarea></div>
+          <div class="padrow"><label for="d6l">What can you learn from it, and what do you do next?</label><textarea id="d6l" data-k="d6l"></textarea></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="day" data-day="7">
+      <summary><span class="dnum">DAY 7</span><span class="dtitle">What will you carry forward</span><span class="dwhen">SUN</span></summary>
+      <div class="dbody">
+        <p>Three questions, and they are worth twenty unhurried minutes. This is the most valuable thing you will produce all week.</p>
+        <div class="pad">
+          <div class="padrow"><label for="d7a">1. What did I learn about myself?</label><textarea id="d7a" data-k="d7a"></textarea></div>
+          <div class="padrow"><label for="d7b">2. What actually helped?</label><textarea id="d7b" data-k="d7b"></textarea></div>
+          <div class="padrow"><label for="d7c">3. What is one thing I am willing to continue?</label><textarea id="d7c" data-k="d7c"></textarea></div>
+          <div class="padrow"><label for="d7share">One sentence from this week I would be happy for Dom to share anonymously (optional)</label><textarea id="d7share" data-k="d7share"></textarea></div>
+        </div>
+        <div class="btnrow">
+          <a class="btn btn--go" id="wa7" href="https://wa.me/447963322286" target="_blank" rel="noopener">Send my reflection to Dom</a>
+          <button class="btn" id="copy7" type="button">Copy it instead</button>
+          <span class="btnnote" id="msg7"></span>
+        </div>
+
+        <div class="mark mark--says" style="margin-top:1rem">
+          <span class="tag">OSIP says</span>
+          <p>Do not add five more habits. Choose the one thing worth carrying forward.</p>
+        </div>
+        <p>You can change the plan without calling it failure. Make it smaller, make it easier, make it more enjoyable, change your environment, ask for support, or decide the goal itself was the wrong one. All of that is adjustment, and adjustment is part of the method rather than a retreat from it.</p>
+      </div>
+    </details>
+
+  </div>
+
+  <div class="col">
+    <div class="btnrow">
+      <button class="btn" id="allbtn" type="button">Copy my whole workbook</button>
+      <button class="btn" id="printbtn" type="button">Print or save as PDF</button>
+      <button class="btn" id="resetbtn" type="button">Clear everything</button>
+      <span class="btnnote" id="savedmsg"></span>
+    </div>
+    <div id="copyout">
+      <label class="btnnote" for="copyarea">Select all and copy</label>
+      <textarea id="copyarea" readonly></textarea>
+    </div>
+  </div>
+
+  <!-- ===== PART FIVE ===== -->
+  <div class="col">
+    <div class="part">
+      <span class="num">Part five</span>
+      <h2>What you are actually running</h2>
+      <p class="part-lede">This week is one turn of the OSIP loop, shortened to seven days so you can feel the shape of it.</p>
+    </div>
+    <div class="loop">
+      <b class="here">Reality</b><i>&rarr;</i>
+      <b class="here">Understanding</b><i>&rarr;</i>
+      <b class="here">Responsibility</b><i>&rarr;</i>
+      <b class="here">Action</b><i>&rarr;</i>
+      <b class="here">Reflection</b><i>&rarr;</i>
+      <b class="here">Adjustment</b><i>&rarr;</i>
+      <b>and round again</b>
+    </div>
+    <div class="mark mark--says" style="margin-top:1.2rem">
+      <span class="tag">OSIP says</span>
+      <p>Struggle is not the enemy. Avoidance is. It is a loop rather than a staircase, and there is no final version of it. That is the point. The question underneath all of this is simply whether you are participating in your life.</p>
+    </div>
+  </div>
+
+  <!-- ===== PART SIX ===== -->
+  <div class="col">
+    <div class="part" id="menu">
+      <span class="num">Part six</span>
+      <h2>The Practical Actions Menu</h2>
+      <p class="part-lede">Yours free with the challenge. Eleven areas of life and a menu of realistic actions under each one. It is the engine behind this whole week and it stays useful long after the seven days are over. These are not rules and not a prescription, they are ideas worth exploring.</p>
+    </div>
+  </div>
+  <details class="menu">
+    <summary><span class="dnum">MENU</span><span class="dtitle">Eleven areas, and what you might try</span><span class="dwhen">OPEN</span></summary>
+    <div class="menugrid" id="menugrid"></div>
+  </details>
+
+  <!-- ===== PART SEVEN ===== -->
+  <div class="col">
+    <div class="part" id="next">
+      <span class="num">Part seven</span>
+      <h2>Keep going</h2>
+      <p class="part-lede">You do not need another challenge. You need to keep living what you have learned.</p>
+    </div>
+    <p>Seven days does not change a life. It does something more useful than that. It shows you how you actually respond when you make a small promise to yourself and try to keep it, and that is the thing worth building on.</p>
+    <p>The challenge finishes on Sunday. We will see what we have learned and decide where to go from there.</p>
+    <p>If you want to talk about what comes next, message me. There is no pitch at the end of it, just a conversation about where you are and what might actually help.</p>
+
+    <div class="contact">
+      <a class="clink" href="https://wa.me/447963322286?text=Hi%20Dom%2C%20I%27m%20doing%20the%20One%20Small%20Change%20Challenge." target="_blank" rel="noopener">
+        <span class="k">WhatsApp</span><span class="v">+44 7963 322286</span>
+      </a>
+      <a class="clink" href="https://www.instagram.com/osip_dominic_mcsherry/" target="_blank" rel="noopener">
+        <span class="k">Instagram</span><span class="v">@osip_dominic_mcsherry</span>
+      </a>
+    </div>
+
+    <div class="safety">
+      <p><b>This is not therapy and it is not medical treatment.</b> OSIP is a set of ideas worth testing, including on itself, and this challenge is a wellbeing exercise rather than clinical support. If something heavier comes up during the week, and sometimes it does, please talk to your GP or a qualified professional.</p>
+      <p><b>If you need to talk to someone now.</b> Samaritans on <a href="tel:116123">116 123</a>, any time. CALM on <a href="tel:08005858858">0800 58 58 58</a>, 5pm to midnight. Or text SHOUT to 85258.</p>
+    </div>
+
+    <footer>
+      One Small Change · OSIP · Outer struggle, inner peace<br>
+      Everything you write here is stored in this browser only. Nothing is sent anywhere and nothing is collected.<br>
+      The honest downside: it is lost if you clear site data, and it does not follow you between devices. Copy or print it if it matters.
+    </footer>
+  </div>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ------------------------------------------------------------------
+     CONFIG. Change this one line to rerun the challenge on new dates.
+     START is the Monday of the challenge week, which is Day 1.
+     Day 0 is the Sunday before it.
+  ------------------------------------------------------------------ */
+  var CONFIG = { START: "2026-09-14", WHATSAPP: "447963322286" };
+
+  var CATS = [
+    { id:"fitness", name:"Fitness and Activity", purpose:"Build strength, improve health and increase daily movement.",
+      ex:["I will walk for 20 minutes every day.","I will do two strength sessions this week."],
+      menu:"Walk 20 to 30 minutes most days. Strength train two to four times a week. Find an activity you enjoy. Stretch or move for 10 minutes daily. Spend more time outdoors." },
+    { id:"nutrition", name:"Nutrition and Energy", purpose:"Support energy, recovery and long term health through simple habits.",
+      ex:["I will have a source of protein with every meal.","I will drink a glass of water before every coffee."],
+      menu:"Eat more whole foods. Include protein with each meal. Drink more water. Reduce ultra processed foods. Eat more fruit and vegetables. Be mindful of alcohol and caffeine." },
+    { id:"sleep", name:"Recovery, Sleep and Downtime", purpose:"Give your body and mind time to recover and recharge.",
+      ex:["I will go to bed and get up at the same time every day.","I will leave my phone in another room 30 minutes before bed."],
+      menu:"Consistent sleep and wake times. Reduce screen time before bed. Schedule regular downtime. Spend time in nature. Build recovery into your week." },
+    { id:"grounding", name:"Grounding Practices", purpose:"Create space to slow down, reflect and regulate stress.",
+      ex:["I will sit quietly for 5 minutes each morning.","I will write down one thing I am grateful for before bed."],
+      menu:"Practice mindful breathing. Journal your thoughts. Spend quiet time in nature. Meditate or sit in silence. Notice what you are grateful for each day." },
+    { id:"social", name:"Social and Relationships", purpose:"Strengthen connection and reduce isolation.",
+      ex:["I will message one person I have been meaning to catch up with.","I will have one real conversation this week: phone away, more than logistics, where I say something honest about how I am actually doing."],
+      menu:"Reach out to a friend. Spend quality time with family. Join a local group or community. Ask for support when you need it. Have one meaningful conversation each week." },
+    { id:"mindset", name:"Mindset and Self-Talk", purpose:"Develop self awareness, resilience and self compassion.",
+      ex:["When I catch myself being harsh, I will say it again the way I would say it to a friend.","I will write down one thing that went well each day."],
+      menu:"Speak to yourself as you would a friend. Focus on progress over perfection. Celebrate small wins. Accept setbacks as part of growth. Challenge unhelpful thoughts with curiosity rather than judgement." },
+    { id:"lifestyle", name:"Lifestyle and Habits", purpose:"Build routines that support the life you want to live.",
+      ex:["I will spend 10 minutes each evening getting tomorrow ready.","I will put my trainers by the door so the easy choice is the good one."],
+      menu:"Start with one small habit. Attach new habits to existing routines. Reduce behaviours that no longer serve you. Make healthy choices easier in your environment. Review your habits weekly." },
+    { id:"stress", name:"Challenges and Stress", purpose:"Respond to difficulties with awareness rather than avoidance.",
+      ex:["When something winds me up, I will write down what is actually in my control.","I will get 10 minutes outside before I react to anything difficult."],
+      menu:"Identify what is within your control. Break problems into smaller steps. Talk things through with someone you trust. Make time to recover during stressful periods. Ask what this challenge is teaching you." },
+    { id:"purpose", name:"Goals, Purpose and Direction", purpose:"Create clarity and move towards what matters most.",
+      ex:["I will write down one goal that matters to me and read it every morning.","I will give 15 minutes a day to the thing I keep putting off."],
+      menu:"Write down one meaningful goal. Identify why it matters to you. Focus on the next small step. Spend time doing things that give you purpose. Review your direction regularly." },
+    { id:"routine", name:"Routine, Accountability and Consistency", purpose:"Turn good intentions into sustainable action.",
+      ex:["I will plan the next day the night before.","I will tell one person what I am doing and check in with them on Sunday."],
+      menu:"Keep promises you make to yourself. Track one habit. Plan your week ahead. Find an accountability partner. Prioritise consistency over intensity." },
+    { id:"support", name:"Support and Compassion", purpose:"Recognise that lasting change does not happen alone.",
+      ex:["I will ask for help with one thing instead of carrying it alone.","I will check in on someone who might need it."],
+      menu:"Be patient with yourself. Accept that setbacks happen. Ask for help when you need it. Offer support to others. Remember that growth takes time." }
+  ];
+
+  var DAYS  = ["MON","TUE","WED","THU","FRI","SAT","SUN"];
+  var TITLES = ["Begin with reality","Choose your action","Show up","Notice",
+                "What is yours to carry","Nothing stands alone","Human before perfect",
+                "What will you carry forward"];
+  var CYCLE = ["", "yes", "partly", "no"];
+  var WORD  = { "": "not recorded yet", "yes": "done", "partly": "partly", "no": "not today" };
+  var KEY = "osip-one-small-change-v1";
+
+  var state = { picked: [], actions: {}, ticks: {}, notes: {}, day: null };
+  var todayIdx = null;   /* 0 to 7, or null when outside the challenge window */
+
+  /* ---------- which day is it ---------- */
+  function computeToday() {
+    var start = new Date(CONFIG.START + "T00:00:00");
+    if (isNaN(start.getTime())) return null;
+    var now = new Date();
+    var t = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var s = new Date(start.getFullYear(), start.getMonth(), start.getDate());
+    var diff = Math.round((t - s) / 86400000) + 1;
+    return (diff >= 0 && diff <= 7) ? diff : null;
+  }
+
+  /* ---------- storage ---------- */
+  function load() {
+    try {
+      var raw = localStorage.getItem(KEY);
+      if (!raw) return;
+      var p = JSON.parse(raw);
+      if (p && typeof p === "object") {
+        state.picked  = Array.isArray(p.picked) ? p.picked.slice(0, 2) : [];
+        state.actions = p.actions && typeof p.actions === "object" ? p.actions : {};
+        state.ticks   = p.ticks   && typeof p.ticks   === "object" ? p.ticks   : {};
+        state.notes   = p.notes   && typeof p.notes   === "object" ? p.notes   : {};
+        state.day     = (typeof p.day === "number" && p.day >= 0 && p.day <= 7) ? p.day : null;
+      }
+    } catch (e) { /* storage unavailable, the page still works for this visit */ }
+  }
+
+  var savedTimer = null;
+  function save() {
+    try {
+      localStorage.setItem(KEY, JSON.stringify(state));
+      var el = document.getElementById("savedmsg");
+      el.textContent = "Saved";
+      clearTimeout(savedTimer);
+      savedTimer = setTimeout(function () { el.textContent = ""; }, 1500);
+    } catch (e) { /* nothing to do */ }
+  }
+
+  function catById(id) {
+    for (var i = 0; i < CATS.length; i++) { if (CATS[i].id === id) return CATS[i]; }
+    return null;
+  }
+  function note(k) { return (state.notes[k] || "").trim(); }
+
+  /* ---------- step one ---------- */
+  function buildCards() {
+    var host = document.getElementById("cards");
+    CATS.forEach(function (c) {
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "card";
+      b.setAttribute("aria-pressed", "false");
+      b.dataset.id = c.id;
+
+      var top = document.createElement("div"); top.className = "ctop";
+      var nm = document.createElement("span"); nm.className = "cname"; nm.textContent = c.name;
+      var mk = document.createElement("span"); mk.className = "cmark"; mk.textContent = "";
+      top.appendChild(nm); top.appendChild(mk);
+
+      var pu = document.createElement("div"); pu.className = "cpurp"; pu.textContent = c.purpose;
+      var ex = document.createElement("div"); ex.className = "cex";
+      ex.textContent = "“" + c.ex[0] + "”  ·  “" + c.ex[1] + "”";
+
+      b.appendChild(top); b.appendChild(pu); b.appendChild(ex);
+      b.addEventListener("click", function () { toggle(c.id); });
+      host.appendChild(b);
+    });
+  }
+
+  var flashTimer = null;
+  function toggle(id) {
+    var i = state.picked.indexOf(id);
+    var added = false;
+    if (i > -1) {
+      state.picked.splice(i, 1);
+      delete state.actions[id];
+      delete state.ticks[id];
+    } else if (state.picked.length >= 2) {
+      var el = document.getElementById("cmsg");
+      el.textContent = "Two is the most this challenge allows, and one works better. Tap one of your yellow cards to swap it out.";
+      el.className = "warnmsg";
+      clearTimeout(flashTimer);
+      flashTimer = setTimeout(renderCounter, 5000);
+      return;
+    } else {
+      state.picked.push(id);
+      added = true;
+    }
+    save(); renderCounter(); render();
+    if (added && state.picked.length === 1) {
+      var input = document.getElementById("act-" + id);
+      if (input) { input.focus({ preventScroll: false }); }
+    }
+  }
+
+  function renderCounter() {
+    var el = document.getElementById("cmsg");
+    el.className = "";
+    var n = state.picked.length;
+    el.textContent = n === 0 ? "Pick one to begin"
+                   : n === 1 ? "One area. That is exactly right."
+                   : "Two areas. Workable, but one would be stronger.";
+    document.getElementById("pip0").className = n > 0 ? "on" : "";
+    document.getElementById("pip1").className = n > 1 ? "on" : "";
+  }
+
+  /* ---------- step two ---------- */
+  function renderActions() {
+    var host = document.getElementById("actions");
+    host.textContent = "";
+    if (!state.picked.length) {
+      var e = document.createElement("div"); e.className = "empty";
+      e.textContent = "Choose an area above and your action box appears here.";
+      host.appendChild(e); return;
+    }
+    state.picked.forEach(function (id) {
+      var c = catById(id); if (!c) return;
+      var a = state.actions[id] || { text: "", time: "" };
+
+      var row = document.createElement("div"); row.className = "actionrow";
+      var tag = document.createElement("span"); tag.className = "tagname"; tag.textContent = c.name;
+      row.appendChild(tag);
+
+      var grid = document.createElement("div"); grid.className = "inline2";
+
+      var r1 = document.createElement("div"); r1.className = "padrow";
+      var l1 = document.createElement("label"); l1.textContent = "This week, I will…"; l1.htmlFor = "act-" + id;
+      var i1 = document.createElement("input");
+      i1.type = "text"; i1.id = "act-" + id; i1.value = a.text;
+      i1.placeholder = c.ex[0].replace(/^I will /, "");
+      i1.addEventListener("input", function () {
+        state.actions[id] = state.actions[id] || {};
+        state.actions[id].text = i1.value; save(); renderTracker(); renderCheckin();
+      });
+      r1.appendChild(l1); r1.appendChild(i1);
+
+      var r2 = document.createElement("div"); r2.className = "padrow";
+      var l2 = document.createElement("label"); l2.textContent = "When"; l2.htmlFor = "time-" + id;
+      var i2 = document.createElement("input");
+      i2.type = "time"; i2.id = "time-" + id; i2.value = a.time;
+      i2.addEventListener("input", function () {
+        state.actions[id] = state.actions[id] || {};
+        state.actions[id].time = i2.value; save(); renderTracker();
+      });
+      r2.appendChild(l2); r2.appendChild(i2);
+
+      grid.appendChild(r1); grid.appendChild(r2);
+      row.appendChild(grid);
+      host.appendChild(row);
+    });
+  }
+
+  /* ---------- step three ---------- */
+  function makeRow(labelText, countText, ticks, id) {
+    var row = document.createElement("div"); row.className = "trow";
+    var lab = document.createElement("div"); lab.className = "tlabel"; lab.textContent = labelText;
+    var cnt = document.createElement("div"); cnt.className = "tcount"; cnt.textContent = countText;
+    var g = document.createElement("div"); g.className = "tgrid";
+    DAYS.forEach(function (d, n) {
+      var cur = ticks[d] || "";
+      var cell = document.createElement(id ? "button" : "div");
+      cell.className = "tick";
+      cell.setAttribute("data-state", cur);
+      if (todayIdx === n + 1) cell.setAttribute("data-today", "1");
+      var gl = document.createElement("span"); gl.className = "glyph";
+      gl.textContent = cur === "no" ? "·" : "✓";
+      cell.appendChild(gl); cell.appendChild(document.createTextNode(d));
+      if (id) {
+        cell.type = "button";
+        cell.setAttribute("aria-label", d + ", " + WORD[cur] + ". Tap to change.");
+        cell.addEventListener("click", function () {
+          state.ticks[id] = state.ticks[id] || {};
+          var now = state.ticks[id][d] || "";
+          state.ticks[id][d] = CYCLE[(CYCLE.indexOf(now) + 1) % CYCLE.length];
+          save();
+          cell.classList.add("pop");
+          setTimeout(function () { cell.classList.remove("pop"); }, 120);
+          renderTracker(); renderCheckin();
+        });
+      }
+      g.appendChild(cell);
+    });
+    row.appendChild(lab); row.appendChild(cnt); row.appendChild(g);
+    return row;
+  }
+
+  function renderTracker() {
+    var host = document.getElementById("tcard");
+    host.textContent = "";
+
+    if (!state.picked.length) {
+      host.appendChild(makeRow("Your action appears here", "0 done   0 partly   0 not today", {}, null));
+    } else {
+      state.picked.forEach(function (id) {
+        var c = catById(id); if (!c) return;
+        var a = state.actions[id] || {};
+        var ticks = state.ticks[id] || {};
+        var yes = DAYS.filter(function (d) { return ticks[d] === "yes"; }).length;
+        var part = DAYS.filter(function (d) { return ticks[d] === "partly"; }).length;
+        var not = DAYS.filter(function (d) { return ticks[d] === "no"; }).length;
+        var label = a.text ? a.text : c.name + ": write your action above";
+        var count = yes + " done   " + part + " partly   " + not + " not today" + (a.time ? "   " + a.time : "");
+        host.appendChild(makeRow(label, count, ticks, id));
+      });
+    }
+
+    var key = document.createElement("div"); key.className = "tkey";
+    var items = [["y","Done"],["p","Partly"],["n","Not today"]];
+    if (todayIdx !== null) items.push(["t","Today"]);
+    items.forEach(function (k) {
+      var sp = document.createElement("span");
+      var ic = document.createElement("i"); ic.className = k[0];
+      sp.appendChild(ic); sp.appendChild(document.createTextNode(k[1]));
+      key.appendChild(sp);
+    });
+    host.appendChild(key);
+  }
+
+  /* ---------- the check in ---------- */
+  function activeDay() {
+    if (typeof state.day === "number") return state.day;
+    if (todayIdx !== null) return todayIdx;
+    return 1;
+  }
+
+  function checkinText() {
+    if (!state.picked.length) return "";
+    var d = activeDay();
+    var lines = [];
+    lines.push("One Small Change · Day " + d);
+    lines.push("");
+
+    state.picked.forEach(function (id) {
+      var c = catById(id); if (!c) return;
+      var a = state.actions[id] || {};
+      var ticks = state.ticks[id] || {};
+      lines.push("Practice: " + (a.text || c.name));
+      if (d >= 1) {
+        var st = ticks[DAYS[d - 1]] || "";
+        lines.push("Today: " + (st ? WORD[st] : "not recorded yet"));
+      }
+    });
+
+    var n = "", l = "";
+    if (d === 0) { n = note("d0"); }
+    else if (d === 1) { n = note("d1"); }
+    else if (d === 7) { n = note("d7a"); l = note("d7c"); }
+    else { n = note("d" + d + "n"); l = note("d" + d + "l"); }
+
+    if (n) { lines.push("Notice: " + n); }
+    if (l) { lines.push("Learn: " + l); }
+    return lines.join("\n");
+  }
+
+  function renderCheckin() {
+    var pre = document.getElementById("checkinpreview");
+    var wa  = document.getElementById("wabtn");
+    var sel = document.getElementById("daysel");
+    if (sel) sel.value = String(activeDay());
+    var txt = checkinText();
+    if (!txt) {
+      pre.textContent = "Choose an area and write your action, then today's check in appears here.";
+      wa.href = "https://wa.me/" + CONFIG.WHATSAPP;
+      return;
+    }
+    pre.textContent = txt;
+    wa.href = "https://wa.me/" + CONFIG.WHATSAPP + "?text=" + encodeURIComponent(txt);
+  }
+
+  function reflectionText() {
+    var out = ["One Small Change · Day 7", ""];
+    state.picked.forEach(function (id) {
+      var c = catById(id); if (!c) return;
+      var a = state.actions[id] || {};
+      var ticks = state.ticks[id] || {};
+      var yes = DAYS.filter(function (d) { return ticks[d] === "yes"; }).length;
+      var part = DAYS.filter(function (d) { return ticks[d] === "partly"; }).length;
+      out.push("Practice: " + (a.text || c.name));
+      out.push("Week: " + yes + " done, " + part + " partly");
+      out.push("");
+    });
+    var q = [
+      ["What I learned about myself", "d7a"],
+      ["What actually helped", "d7b"],
+      ["What I am carrying forward", "d7c"]
+    ];
+    q.forEach(function (x) {
+      var v = note(x[1]);
+      if (v) { out.push(x[0] + ": " + v); }
+    });
+    var sh = note("d7share");
+    if (sh) { out.push(""); out.push("Happy for you to share this anonymously: " + sh); }
+    return out.join("\n").trim();
+  }
+
+  function renderDay7() {
+    var wa = document.getElementById("wa7");
+    if (!wa) return;
+    var t = reflectionText();
+    wa.href = "https://wa.me/" + CONFIG.WHATSAPP + (t ? "?text=" + encodeURIComponent(t) : "");
+  }
+
+  function fullText() {
+    var out = ["ONE SMALL CHANGE · OSIP", ""];
+    state.picked.forEach(function (id) {
+      var c = catById(id); if (!c) return;
+      var a = state.actions[id] || {};
+      var ticks = state.ticks[id] || {};
+      out.push("Area: " + c.name);
+      out.push("Action: " + (a.text || "not written yet") + (a.time ? " at " + a.time : ""));
+      out.push("Week: " + DAYS.map(function (d) {
+        return d + " " + (ticks[d] ? WORD[ticks[d]] : "-");
+      }).join("  "));
+      out.push("");
+    });
+    var blocks = [
+      ["Day 0 · " + TITLES[0], ["d0"]],
+      ["Day 1 · " + TITLES[1], ["d1"]],
+      ["Day 2 · " + TITLES[2], ["d2n","d2l"]],
+      ["Day 3 · " + TITLES[3], ["d3n","d3l"]],
+      ["Day 4 · " + TITLES[4], ["d4a","d4b","d4l"]],
+      ["Day 5 · " + TITLES[5], ["d5n","d5l"]],
+      ["Day 6 · " + TITLES[6], ["d6n","d6l"]],
+      ["Day 7 · " + TITLES[7], ["d7a","d7b","d7c","d7share"]]
+    ];
+    blocks.forEach(function (b) {
+      var body = b[1].map(note).filter(Boolean);
+      if (!body.length) return;
+      out.push(b[0]);
+      body.forEach(function (t) { out.push("  " + t); });
+      out.push("");
+    });
+    return out.join("\n").trim();
+  }
+
+  function copy(text, msgEl) {
+    if (!text) { msgEl.textContent = "Nothing to copy yet"; return; }
+    function ok() { msgEl.textContent = "Copied"; setTimeout(function () { msgEl.textContent = ""; }, 1800); }
+    function fallback() {
+      var box = document.getElementById("copyout");
+      var area = document.getElementById("copyarea");
+      area.value = text; box.style.display = "block";
+      area.focus(); area.select();
+      msgEl.textContent = "Copy it from the box below";
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(ok, fallback);
+    } else { fallback(); }
+  }
+
+  /* ---------- notes ---------- */
+  function wireNotes() {
+    Array.prototype.forEach.call(document.querySelectorAll("textarea[data-k]"), function (t) {
+      var k = t.getAttribute("data-k");
+      if (state.notes[k]) t.value = state.notes[k];
+      t.addEventListener("input", function () { state.notes[k] = t.value; save(); renderCheckin(); renderDay7(); });
+    });
+  }
+
+  function buildMenu() {
+    var host = document.getElementById("menugrid");
+    CATS.forEach(function (c) {
+      var d = document.createElement("div"); d.className = "menuitem";
+      var m = document.createElement("div"); m.className = "m"; m.textContent = c.name;
+      var s = document.createElement("div"); s.className = "s"; s.textContent = c.menu;
+      d.appendChild(m); d.appendChild(s);
+      host.appendChild(d);
+    });
+  }
+
+  function render() {
+    Array.prototype.forEach.call(document.querySelectorAll(".card"), function (b) {
+      var on = state.picked.indexOf(b.dataset.id) > -1;
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+      b.querySelector(".cmark").textContent = on ? "✓" : "";
+    });
+    renderActions();
+    renderTracker();
+    renderCheckin();
+    renderDay7();
+  }
+
+  /* ---------- today ---------- */
+  function markToday() {
+    todayIdx = computeToday();
+    var label = document.getElementById("daynow");
+    var opened = false;
+    Array.prototype.forEach.call(document.querySelectorAll("details.day"), function (d) {
+      var n = parseInt(d.getAttribute("data-day"), 10);
+      if (todayIdx !== null && n === todayIdx) {
+        d.classList.add("is-today");
+        d.open = true; opened = true;
+        d.querySelector(".dwhen").textContent = "TODAY";
+      }
+    });
+    if (todayIdx !== null) {
+      label.textContent = "Today is Day " + todayIdx;
+    } else {
+      label.textContent = "Seven days";
+      var first = document.querySelector('details.day[data-day="0"]');
+      if (first && !opened) first.open = true;
+    }
+    renderProgress();
+  }
+
+  function renderProgress() {
+    var host = document.getElementById("progressDots");
+    var here = document.getElementById("progressHere");
+    if (!host) return;
+    host.innerHTML = "";
+    for (var i = 0; i <= 7; i++) {
+      var d = document.createElement("span");
+      d.className = "dot";
+      d.textContent = i;
+      if (todayIdx !== null) {
+        if (i < todayIdx) d.className += " is-past";
+        else if (i === todayIdx) d.className += " is-today";
+      }
+      host.appendChild(d);
+    }
+    if (here) {
+      here.textContent = (todayIdx !== null)
+        ? "Day " + todayIdx + " of 7"
+        : "Starts soon";
+    }
+  }
+
+  /* ---------- wiring ---------- */
+  document.getElementById("printbtn").addEventListener("click", function () {
+    Array.prototype.forEach.call(document.querySelectorAll("details.day, details.menu"), function (d) { d.open = true; });
+    window.print();
+  });
+
+  document.getElementById("daysel").addEventListener("change", function (e) {
+    state.day = parseInt(e.target.value, 10);
+    save(); renderCheckin();
+  });
+
+  document.getElementById("copybtn").addEventListener("click", function () {
+    copy(checkinText(), document.getElementById("copymsg"));
+  });
+
+  document.getElementById("copy7").addEventListener("click", function () {
+    copy(reflectionText(), document.getElementById("msg7"));
+  });
+
+  document.getElementById("allbtn").addEventListener("click", function () {
+    copy(fullText(), document.getElementById("savedmsg"));
+  });
+
+  document.getElementById("resetbtn").addEventListener("click", function () {
+    if (!window.confirm("This clears everything you have written in this browser. There is no undo. Carry on?")) return;
+    state = { picked: [], actions: {}, ticks: {}, notes: {}, day: null };
+    try { localStorage.removeItem(KEY); } catch (e) {}
+    Array.prototype.forEach.call(document.querySelectorAll("textarea[data-k]"), function (t) { t.value = ""; });
+    document.getElementById("copyout").style.display = "none";
+    renderCounter(); render();
+  });
+
+  load();
+  buildCards();
+  buildMenu();
+  wireNotes();
+  markToday();
+  renderCounter();
+  render();
+})();
+</script>
+
+</body>
+</html>
